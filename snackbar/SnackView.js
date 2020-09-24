@@ -85,8 +85,6 @@ class SnackView extends Component{
             })
         } else {
 
-            containerStyle.height = containerHeight
-
             baseStyle.bottom = 0
 
             containerStyle.bottom = this.state.animatedValue1.interpolate({
